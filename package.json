@@ -1,4 +1,6 @@
 {
+  "name": "mssql-to-txt",
+  "description": "Exports ms sql server table data to plain txt/csv file",
   "dependencies": {
     "async": "^2.6.0",
     "mssql": "^4.1.0"
