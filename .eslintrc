@@ -1,0 +1,30 @@
+{
+  "extends": "airbnb",
+  "globals": {
+    "afterAll": true,
+    "afterEach": true,
+    "beforeAll": true,
+    "beforeEach": true,
+    "describe": true,
+    "expect": true,
+    "test": true,
+    // global polyfill - no imports
+    "fetch": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "import/prefer-default-export": "off",
+    "object-shorthand": "off",
+    "no-use-before-define": "off",
+    "arrow-parens": ["error" , "as-needed", {"requireForBlockBody": false }],
+    "no-console": ["error", { allow: ["log", "error"] }],
+    "no-unused-vars": ["warn", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
+    "comma-dangle": ["error", {
+      "arrays": "never",
+      "objects": "always-multiline",
+      "imports": "always-multiline",
+      "exports": "always-multiline",
+      "functions": "never",
+    }]
+  }
+}
