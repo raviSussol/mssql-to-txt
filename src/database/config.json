@@ -5,7 +5,7 @@
     "server": "localhost",
     "database": "msdb",
     "options": {
-      "encrypt": false // true if you're on Windows Azure
+      "encrypt": false
     }
   }
 }
