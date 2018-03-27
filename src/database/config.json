@@ -1,0 +1,11 @@
+{
+  "mssqlConfig": {
+    "user": "",
+    "password": "",
+    "server": "localhost",
+    "database": "msdb",
+    "options": {
+      "encrypt": false
+    }
+  }
+}
