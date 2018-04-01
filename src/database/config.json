@@ -1,7 +1,7 @@
 {
   "mssqlConfig": {
     "user": "sa",
-    "password": "@vDV2rctM^#2",
+    "password": "password",
     "server": "localhost",
     "database": "TestDB",
     "port": 1401,
