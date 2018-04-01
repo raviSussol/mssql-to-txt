@@ -1,16 +1,12 @@
 {
   "mssqlConfig": {
-    "user": "",
-    "password": "",
-    "server": "192.168.3.132",
-    "database": "Northwind",
+    "user": "sa",
+    "password": "@vDV2rctM^#2",
+    "server": "localhost",
+    "database": "TestDB",
+    "port": 1401,
     "options": {
       "encrypt": false
-    },
-    "pool": {
-      "max": 10,
-      "min": 0,
-      "idleTimeoutMillis": 30000
     }
   }
 }
