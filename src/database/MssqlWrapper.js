@@ -5,8 +5,14 @@ export default class MssqlWrapper {
     const { mssqlConfig } = config;
     this.connection = new ConnectionPool(mssqlConfig);
     this.connection.connect(err => {
-      if (err === null) return console.log('Success!');
-      return console.log('failed!');
+      if (err === null) {
+        this.connection.request()
+          .query('select * from std_info', (err, result) => {
+            console.log(result.recordset);
+          });
+      } else {
+        console.log('failed!');
+      }
     });
   }
 }
